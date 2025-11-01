@@ -40,5 +40,7 @@ python -m ipykernel install --user --name=evulation-metrics --display-name "Evul
 
 - **PyCCMetrics**: Computes code complexity metrics such as cyclomatic complexity, maintainability, and code structure metrics.
 
+- **CodeBERTScore** is an automatic evaluation metric for code generation tasks, adapted from **BERTScore**, which measure **semantic and syntactic similarity** between predicted and reference code.
+
 > Detailed examples and explanations are included in the notebooks.
 
