@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "code-bert-score==0.4.1",
     "codebleu",
     "pyccmetrics>=0.1.2",
     "tree-sitter-java==0.21",
