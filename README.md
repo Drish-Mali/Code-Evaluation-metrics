@@ -25,10 +25,10 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS / Linux
 source .venv/bin/activate
-
+#Install uv in the virtual environment
+pip install uv
 # Install dependencies using uv
 uv sync
-
 #Register the virtual environment as a Jupyter kernel to use it while running notebooks
 pip install ipykernel
 python -m ipykernel install --user --name=evulation-metrics --display-name "Evulation Metrics"
